@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 
 ThemeData appTheme() {
   return ThemeData(
+    fontFamily: 'Filson',
     primaryColor: AppColors.primary,    scaffoldBackgroundColor: AppColors.background,
     textTheme: TextTheme(
+      
       bodyText1: TextStyle(color: AppColors.textColor),
       bodyText2: TextStyle(color: AppColors.textColor),
     ),
